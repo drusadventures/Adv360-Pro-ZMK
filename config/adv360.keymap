@@ -79,21 +79,21 @@
 
         layer_functional_left {
             bindings = <
-          &none   &none    &none    &none    &none   &none                   &trans                                                        &trans             &trans         &trans             &trans  &trans  &trans           &trans
-     &kp ESCAPE  &kp F9  &kp F10  &kp F11  &kp F12   &none                    &none                                                         &none             &trans         &trans             &trans  &trans  &trans           &trans
-        &kp TAB  &kp F5   &kp F6   &kp F7   &kp F8   &none                    &none   &none   &none  &trans  &trans   &none      &none      &none  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &trans  &trans           &trans
- &kp LEFT_SHIFT  &kp F1   &kp F2   &kp F3   &kp F4   &none                   &trans  &trans   &none  &trans  &trans   &none     &trans     &trans             &trans         &trans             &trans  &trans  &trans  &kp RIGHT_SHIFT
-         &trans   &none    &none    &none    &none                    &kp BACKSPACE   &to 0  &trans                  &trans  &kp ENTER  &kp SPACE                            &trans             &trans  &trans  &trans           &trans
+          &none   &none    &none    &none    &none   &none                   &trans                                                        &trans             &trans         &trans             &trans        &trans        &trans           &trans
+     &kp ESCAPE  &kp F9  &kp F10  &kp F11  &kp F12   &none                    &none                                                         &none           &kp C_RW       &kp C_PP           &kp C_FF  &kp C_VOL_UP  &kp C_VOL_DN           &trans
+        &kp TAB  &kp F5   &kp F6   &kp F7   &kp F8   &none                    &none   &none   &none  &trans  &trans   &none      &none      &none  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL        &trans        &trans           &trans
+ &kp LEFT_SHIFT  &kp F1   &kp F2   &kp F3   &kp F4   &none                   &trans  &trans   &none  &trans  &trans   &none     &trans     &trans             &trans         &trans             &trans        &trans        &trans  &kp RIGHT_SHIFT
+         &trans   &none    &none    &none    &none                    &kp BACKSPACE   &to 0  &trans                  &trans  &kp ENTER  &kp SPACE                            &trans             &trans        &trans        &trans           &trans
             >;
         };
 
         layer_nav {
             bindings = <
-         &trans    &trans            &trans              &trans        &trans            &trans                   &trans                                                        &trans    &trans         &trans     &trans     &trans  &trans           &trans
-        &kp ESC    &trans            &trans              &trans        &trans            &trans                    &none                                                         &none    &trans         &trans     &trans     &trans  &trans           &trans
-        &kp TAB    &trans            &trans    &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND                    &none   &none   &none  &trans  &trans   &none      &none      &none  &kp LEFT       &kp DOWN     &kp UP  &kp RIGHT  &trans           &trans
- &kp LEFT_SHIFT  &kp C_RW  &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD  &kp C_VOL_UP      &kp C_VOL_DN                   &trans  &trans   &none  &trans  &trans   &none     &trans     &trans  &kp HOME  &kp PAGE_DOWN  &kp PG_UP    &kp END  &trans  &kp RIGHT_SHIFT
-         &trans    &trans            &trans              &trans        &trans                              &kp BACKSPACE   &to 0  &trans                  &trans  &kp ENTER  &kp SPACE                   &trans     &trans     &trans  &trans           &trans
+         &trans  &trans  &trans            &trans        &trans            &trans                   &trans                                                        &trans    &trans         &trans     &trans     &trans  &trans           &trans
+        &kp ESC  &trans  &trans            &trans        &trans            &trans                    &none                                                         &none    &trans         &trans     &trans     &trans  &trans           &trans
+        &kp TAB  &trans  &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND                    &none   &none   &none  &trans  &trans   &none      &none      &none  &kp LEFT       &kp DOWN     &kp UP  &kp RIGHT  &trans           &trans
+ &kp LEFT_SHIFT  &trans  &trans            &trans        &trans            &trans                   &trans  &trans   &none  &trans  &trans   &none     &trans     &trans  &kp HOME  &kp PAGE_DOWN  &kp PG_UP    &kp END  &trans  &kp RIGHT_SHIFT
+         &trans  &trans  &trans            &trans        &trans                              &kp BACKSPACE   &to 0  &trans                  &trans  &kp ENTER  &kp SPACE                   &trans     &trans     &trans  &trans           &trans
             >;
         };
 
