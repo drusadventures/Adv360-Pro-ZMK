@@ -43,7 +43,7 @@
       &kp GRAVE     &kp N1        &kp N2    &kp N3     &kp N4  &kp N5                   &tog 1                                                                                            &mo 1  &kp N6  &kp N7     &kp N8      &kp N9         &kp N0        &kp MINUS
         &kp ESC      &kp Q         &kp W     &kp E      &kp R   &kp T                   &trans                                                                                           &trans   &kp Y   &kp U      &kp I       &kp O          &kp P            &mo 1
         &kp TAB      &kp A         &kp S     &kp D      &kp F   &kp G                   &trans  &kp LEFT_CONTROL  &kp LEFT_ALT                  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_ALT   &kp H   &kp J      &kp K       &kp L  &kp SEMICOLON           &tog 5
- &kp LEFT_SHIFT      &kp Z         &kp X     &kp C      &kp V   &kp B                                                    &kp V                          &kp B                                     &kp N   &kp M  &kp COMMA  &kp PERIOD   &kp QUESTION  &kp RIGHT_SHIFT
+ &kp LEFT_SHIFT      &kp Z         &kp X     &kp C      &kp V   &kp B                                                 &kp HOME                        &kp END                                     &kp N   &kp M  &kp COMMA  &kp PERIOD   &kp QUESTION  &kp RIGHT_SHIFT
           &none  &kp GRAVE  &kp CAPSLOCK  &kp LEFT  &kp RIGHT                    &kp BACKSPACE             &mo 2         &to 3                          &to 4          &kp ENTER      &kp SPACE          &kp UP   &kp DOWN    &kp BSPC          &mo 2           &tog 3
             >;
         };
@@ -60,11 +60,11 @@
 
         layer_home_row {
             bindings = <
-         &trans           &trans            &trans                 &trans                &trans             &trans                    &none                                                         &mo 1             &trans                 &trans             &trans             &trans         &trans           &trans
-     &kp ESCAPE  &kp EXCLAMATION            &kp AT               &kp HASH            &kp DOLLAR        &kp PERCENT                    &none                                                         &none          &kp CARET          &kp AMPERSAND           &kp STAR           &kp PIPE      &kp MINUS           &trans
-        &kp TAB   &kp UNDERSCORE         &kp GRAVE       &kp LEFT_CONTROL          &kp LEFT_ALT   &kp LEFT_COMMAND                    &none   &none   &none                  &trans     &trans      &none  &kp RIGHT_COMMAND          &kp RIGHT_ALT  &kp RIGHT_CONTROL          &kp EQUAL       &kp PLUS            &none
- &kp LEFT_SHIFT         &kp CAPS  &kp LEFT_BRACKET         &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES                                    &none                   &none                         &kp SINGLE_QUOTE  &kp RIGHT_PARENTHESIS    &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp RIGHT_SHIFT
-         &trans           &trans  &kp SINGLE_QUOTE  &kp RIGHT_PARENTHESIS       &kp RIGHT_BRACE                               &kp BACKSPACE  &trans   &none                   &none  &kp ENTER  &kp SPACE                                    &trans             &trans      &kp BACKSPACE          &to 0           &trans
+         &trans           &trans            &trans            &trans                &trans             &trans                    &none                                                         &mo 1             &trans                 &trans             &trans             &trans         &trans           &trans
+     &kp ESCAPE  &kp EXCLAMATION            &kp AT          &kp HASH            &kp DOLLAR        &kp PERCENT                    &none                                                         &none          &kp CARET          &kp AMPERSAND           &kp STAR           &kp PIPE      &kp MINUS           &trans
+        &kp TAB   &kp UNDERSCORE         &kp GRAVE  &kp LEFT_CONTROL          &kp LEFT_ALT   &kp LEFT_COMMAND                    &none   &none   &none                  &trans     &trans      &none  &kp RIGHT_COMMAND          &kp RIGHT_ALT  &kp RIGHT_CONTROL          &kp EQUAL       &kp PLUS           &trans
+ &kp LEFT_SHIFT         &kp CAPS  &kp LEFT_BRACKET    &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES                                    &none                   &none                         &kp SINGLE_QUOTE  &kp RIGHT_PARENTHESIS    &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp RIGHT_SHIFT
+         &trans           &trans             &none             &none                 &none                               &kp BACKSPACE  &trans  &trans                  &trans  &kp ENTER  &kp SPACE                                    &trans             &trans              &none          &none           &trans
             >;
         };
 
